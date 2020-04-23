@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+body{
+	margin: 0;
+
+}
+header	{
+	background: BLACK;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 40px;
+}
+header h1 {
+	display: inline;
+	font-family: 'Gothic';
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 20px;
+
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#n{
+	font-family: 'Montserrat', sans-serif;
+}
+.z{
+	color: pink;
+	cursor: pointer;
+}
+.a:active {background-color: orange;
+	color: orange;} /* Green */
+.a:hover {background-color: #46a049;}
+
+.b {background-color: #2196F3;} /* Blue */
+.b:hover {background: #0b7dda;}
+
+.c {background-color: #ff9800;} /* Orange */
+.c:hover {background: #e68a00;}
+
+.d {background-color: #f44336;} /* Red */ 
+.d:hover {background: #da190b;}
+
+.divider{
+	background-color: orange;
+	height: 5px;
+} 
+.imagefw{
+	background-image: url("tenzin.JPG");
+	width: 100%;
+	height: 100%; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.firstline{
+   font-family: 'Inconsolata', monospace;
+   margin: 0;
+   padding: 9% 10% 0% 45%;
+   color: black;
+   font-size: 32px;
+}
+.secill{
+	font-family: 'Inconsolata', monospace;
+	margin: 0.5% 0% 0% 45%;
+	font-size: 65px;
+	display: inline-block;
+}
+.secpho{
+	font-family: 'Inconsolata', monospace;
+	margin: 0% 0% 0% 45%;
+	font-size: 65px;
+	display: inline-block;
+}
+.butport{
+	margin: 0% 0% 0% 45%;
+	background:yellow;
+	color: black;
+	border: none;
+	height: 30px;
+	font-size: 1.4em;
+	padding: 0.1em ;
+	cursor: pointer;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 900;
+}
+
+
+
+
+
+
